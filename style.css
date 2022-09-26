@@ -1,0 +1,121 @@
+#logo{
+    height: 40px;
+    width: 40px;
+    border: 2px ridge;
+    border-radius: 20px;
+}
+#background{
+    background-image: url(images/full.jpg);
+    height: 600px;
+    background-size: 100% 100%;
+}
+nav{
+    opacity: 0.7;
+}
+div ul li a{
+    color: white;
+}
+div ul li a:hover{
+    color: white;
+    font-size: 17px;
+}
+div ul li{
+    padding: 10px;
+}
+#slogan{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+    color: white;
+    font-weight: 600;
+}
+.class{
+    height: 250px;
+    width: 250px;
+}
+#c-1{
+    height: 250px;
+    width: 250px;
+    opacity: 0.5;
+}
+#list{
+    opacity: 0.5;
+}
+.form{
+    text-align: center;
+}
+#btno{
+    opacity: 0.5;
+}
+#btno:hover{
+    opacity: 0.8;
+    font-size: larger;
+}
+#front{
+    height: 200px;
+    width: auto;
+}
+#card{
+    width: 350px;
+    margin-top: 50px;
+    background-image: radial-gradient(circle, grey, white);
+}
+#fro{
+    background: url(images/fro.jpg);
+    background-image: 100% 100%;
+}
+#lis{
+    opacity: 0.7;
+}
+#group{
+    height: 400px;
+}
+#topi{
+    height: 80px;
+    font-size: 20px;
+    overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+    #slogan{
+        font-size: 25px;
+    }
+    #group{
+        height: 670px;
+    }
+    #topi{
+        font-size: 15px;
+        height: 115px;
+    }
+}
+#container{
+    background-color:#b6babd ;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+#heading{
+    font-size: 40px;
+}
+#para{
+    font-size: 20px;
+}
+#imgo{
+    opacity: 0.8;
+    border-radius: 20px;
+    border: 5px ridge;
+}
+.abc{
+    width: 600px;
+    text-align: center;
+
+}
+#facebook{
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+}
